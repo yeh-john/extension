@@ -1,0 +1,6 @@
+#dismissible.ytd-rich-shelf-renderer{
+    display: none;
+}
+#content.ytd-rich-section-renderer>*.ytd-rich-section-renderer{
+    display: none;
+}
