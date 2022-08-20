@@ -4,3 +4,7 @@
 #content.ytd-rich-section-renderer>*.ytd-rich-section-renderer{
     display: none;
 }
+
+ytd-reel-shelf-renderer.style-scope.ytd-item-section-renderer{
+    display: none;
+}
