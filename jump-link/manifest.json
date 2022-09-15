@@ -1,0 +1,30 @@
+{
+    "name": "Short Video Remover",
+    "description": "This extension can remove YouTube short video.",
+    "version": "0.1.0",
+    "manifest_version": 3
+    ,
+
+    "content_scripts": [
+        {
+            "matches": [ "<all_urls>" ],
+            "js": [ "script.js" ],
+            "run_at": "document_start"
+        }
+    ],
+    "permissions": [
+        "scripting",
+        "storage",
+        "unlimitedStorage",
+        "tabs",
+        "activeTab",
+        "webRequest",
+        "contextMenus"
+    ],
+    "host_permissions": ["<all_urls>"],
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    }
+}
