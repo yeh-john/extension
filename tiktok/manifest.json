@@ -1,6 +1,6 @@
 {
-    "name": "Short Video Remover",
-    "description": "This extension can remove YouTube short video.",
+    "name": "TikTok Content Remover",
+    "description": "This extension can remove TikTok recommend video.",
     "version": "0.1.0",
     "manifest_version": 3
     ,
