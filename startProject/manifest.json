@@ -1,0 +1,26 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    
+        "name": "Project name",
+        "description": "Write description about project",
+        "version": "0.1.0",
+        "manifest_version": 3
+        ,
+        "content_scripts": [
+            {
+                "matches": [ "<all_urls>" ],
+                "js": [ "script.js" ]
+            }
+        ],
+        "icons": {
+            "16": "src/img/logo.png",
+            "32": "src/img/logo.png",
+            "48": "src/img/logo.png",
+            "128": "src/img/logo.png"
+        },
+        "action": {
+            "default_icon": "src/img/logo.png",
+            "default_popup": "src/popup.html"
+         },
+         "permissions": ["activeTab"]
+}
